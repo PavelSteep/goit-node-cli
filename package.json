@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelSteep/goit-node-cli.git"
+  },
+  "keywords": [],
+  "author": "Pavel_Paul <bpv358@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelSteep/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/PavelSteep/goit-node-cli#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
+  }
+}
