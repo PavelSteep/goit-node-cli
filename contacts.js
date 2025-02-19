@@ -1,8 +1,14 @@
 import fs from "fs/promises";
+// Импорт модуля "fs/promises" для работы с файловой системой в асинхронном режиме (использование async/await).
 import path from "path";
+// Импорт модуля "path" для работы с путями к файлам и директориям (создание, объединение, нормализация путей).
 import { existsSync } from "fs";
+// Импорт функции existsSync из модуля "fs" для синхронной проверки существования файла или директории.
 import { randomUUID } from "crypto";
+// Импорт функции randomUUID из модуля "crypto" для генерации уникальных идентификаторов (UUID v4).
 import { fileURLToPath } from "url";
+// Импорт функции fileURLToPath из модуля "url" для преобразования URL файла (например, import.meta.url) в абсолютный путь.
+
 
 // Определяем путь к файлу contacts.json
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
